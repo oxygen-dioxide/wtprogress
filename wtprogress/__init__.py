@@ -13,8 +13,6 @@ def show(value:int,color:str=None):
     else:
         color=dcolor
     value=int(value)
-    #str="\x1b]9;4;{};{}\x1b\\".format(color,value)
-    #print((str,))
     print("\x1b]9;4;{};{}\x1b\\".format(color,value),end="",flush=True)
 
 def close():

@@ -3,7 +3,7 @@ A python library for showing progress in windows terminal.
 
 When you are running a long-running task in python in background, such as training a neural network, you may switch to your terminal frequently to check the progress. With this library, your python script can show progress in your taskbar, and you can easily see it without switching to your terminal.
 
-Note: this library only supports [windows terminal](https://www.bing.com/search?q=windows+termina&cvid=449bb659a5224c3bba78d71a7b8f7545&aqs=edge..69i57j0l2j69i59j69i61j69i60j69i61.128398j0j1&pglt=131&FORM=ANNTA1&PC=U531). Conhost doesn't have this feature.
+Note: this library only supports [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab). Conhost doesn't have this feature.
 
 ## Example
 ```py

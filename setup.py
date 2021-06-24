@@ -14,13 +14,13 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'dvfile'
-DESCRIPTION = 'Read and write deepvocal dv file'
+NAME = 'wtprogress'
+DESCRIPTION = 'show progress on windows terminal taskbar icon'
 URL = 'https://github.com/oxygen-dioxide/wtprogress'
 EMAIL = '1463567152@qq.com'    
 AUTHOR = 'oxygen dioxide'
 REQUIRES_PYTHON = '>=3.5.0' 
-VERSION = '0.2.0'
+VERSION = '0.0.1'
     
 REQUIRED = []    
 EXTRAS = {}
@@ -111,15 +111,15 @@ setup(
     classifiers=[
         # Trove classifiers
         # Full list: https://pypi.python.org/pypi?%3Aaction=list_classifiers
-        'License :: Other/Proprietary License',
+        'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.5',
-        #'Topic :: Multimedia :: Sound/Audio :: MIDI',
-        #"Topic :: Multimedia :: Sound/Audio :: Sound Synthesis",
+        'Topic :: Terminals :: Terminal Emulators/X Terminals',
         'Programming Language :: Python :: Implementation :: CPython'
     ],
     # $ setup.py publish support.
